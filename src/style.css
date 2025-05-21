@@ -58,7 +58,7 @@ body {
   text-align: center;
 }
 
-:hover {
+.nav_link:hover {
   color: var(--link-color);
 }
 
@@ -68,7 +68,7 @@ body {
 
 .is-active::after {
   height: 4px;
-  border-radius: 8;
+  border-radius: 8px;
   width: 100%;
   content: '';
   display: block;
